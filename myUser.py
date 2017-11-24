@@ -79,7 +79,7 @@ class User(object):
         self.outputer.output_csv("followers.csv",type)
 
 if __name__=='__main__':
-    myLog.zhihu_Login('18810186015','123456mn')
+    myLog.zhihu_Login()
     session = myLog.session
     print("spider")
     root_url = 'https://www.zhihu.com/people/zhu-zhu-82-13/'
